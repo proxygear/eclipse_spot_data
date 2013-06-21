@@ -1,3 +1,5 @@
+![Eclipse Spot](misc/eclipse_spot_logo.jpg)
+
 #Eclipse Spot Data
 
 Data YML for [Eclipse Phase RPG](http://eclipsephase.com) currently used on [Eclipse Spot](http://eclipsespot.com)
