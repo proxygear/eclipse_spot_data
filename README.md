@@ -35,17 +35,20 @@ In data folder you will find yml files. The format is DATA_TYPE.LANG.yml.
 * DATA_TYPE : traits, skills etc ...
 * LANG : two letters like en, fr, es ...
 
-###Yml format
+###Yaml format
 
 Open one of the present file, for instance skills.en.yml
 You will see that all file have the following hierachi :
 
 ````.yml
 en:
-  key_name:
-    data1: value
-    data2: value ...
+  type_pluralized:
+    key_name:
+      data1: value
+      data2: value ...
 ````
+
+"type_pluralized" is stuff like factions, backgrounds, ...
 
 The key_name is used as a unique item id.
 It means couple of things :
