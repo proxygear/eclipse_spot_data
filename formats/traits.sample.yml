@@ -1,0 +1,5 @@
+    name: Adaptability
+    target: ego
+    description: ""
+    cp_cost: 10, 20
+    require_psi_trait: true

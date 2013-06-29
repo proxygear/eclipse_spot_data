@@ -1,0 +1,707 @@
+en:
+  morph_patterns:
+    flats:
+      name: "Flat"
+      description: "Flats are baseline unmodified humans, born with all of the natural defects, hereditary diseases, and other genetic mutations that evolution so lovingly applies. Flats are increasingly rare—most died off with the rest of humanity during the Fall. Most new children are splicers—screened and genefixed at the least—except in habitats where flats are treated as second-class citi- zens and indentured labor."
+      aptitude_maximum: 20
+      durability: 30
+      wound_threshold: 6
+      traits:
+      - optional: true
+        name: genetic defects
+      cp_cost: 0
+      credit_cost: high
+    splicers:
+      name: Splicer
+      description: "Splicers are genefixed humans. Their genome has been cleansed of hereditary diseases and optimized for looks and health, but has not otherwise been substantially upgraded. Splicers make up the major- ity of transhumanity."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      aptitude_maximum: 25
+      durability: 30
+      wound_threshold: 6
+      aptitude_modifiers:
+      - value: 5
+      cp_cost: 10
+      credit_cost: high
+    exalts:
+      name: Exalt
+      description: "Exalt morphs are genetically-enhanced humans, de- signed to emphasize specific traits. Their genetic code has been tweaked to make them healthier, smarter, and more attractive. Their metabolism is modified to predispose them towards staying fit and athletic for the duration of an extended lifespan."
+      aptitude_maximum: 30
+      durability: 35
+      wound_threshold: 7
+      aptitude_modifiers:
+      - name: COG
+        value: 5
+      - value: 5
+      - value: 5
+      - value: 5
+      cp_cost: 30
+      credit_cost: expensive
+    mentons:
+      name: Menton
+      description: "Mentons are genetically modifified to increase cogni- tive abilities, particularly learning ability, creativity, attentiveness, and memory. Rumors exist of super- enhanced mentons with more extreme intelligence mods, but brain-hacking is notoriously difficult, and many attempts to redesign mental faculties result in impaired functioning, instability, or insanity."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: eidetic memory
+      - name: hyper-linguist
+      - name: math boost
+      aptitude_maximum: 30
+      durability: 35
+      wound_threshold: 7
+      aptitude_modifiers:
+      - value: 10
+        name: COG
+      - value: 5
+        name: INT
+      - value: 5
+        name: WIL
+      - value: 5
+      cp_cost: 40
+      credit_cost: expensive
+    olympians:
+      name: Olympian
+      description: "Olympians are human upgrades with improved athletic capabilities like endurance, eye-hand coor- dination, and cardio-vascular functions. Olympians are common among athletes, dancers, freerunners, and soldiers."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      aptitude_maximum: 30
+      durability: 40
+      wound_threshold: 8
+      aptitude_modifiers:
+      - value: 5
+        name: COO
+      - value: 5
+        name: REF
+      - value: 10
+        name: SOM
+      - value: 5
+      cp_cost: 40
+      credit_cost: expensive
+    sylphs:
+      name: Sylph
+      description: "Sylph morphs are tailor-made for media icons, elite socialites, XP stars, models, and narcissists. Sylph gene sequences are specifically designed for dis- tinctive good looks. Ethereal and elfin features are common, with slim and lithe bodies. Their metabo- lism has also been sanitized to eliminate unpleasant bodily odors and their pheromones adjusted for universal appeal."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: clean metabolism
+      - name: cortical stack
+      - name: enhenced pheromones
+      aptitude_maximum: 30
+      durability: 35
+      wound_threshold: 7
+      traits:
+      - name: striking looks
+        level: 1
+      aptitude_modifiers:
+      - value: 5
+        name: COO
+      - value: 10
+        name: SAV
+      - vascular: 5
+      cp_cost: 40
+      credit_cost: expensive
+    bouncers:
+      name: Bouncer
+      description: "Bouncers are humans genetically adapted for zero-G and microgravity environments. Their legs are more limber, and their feet can grasp as well as their hands. Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Grip Pads, Oxygen Reserve, Prehensile Feet"
+      aptitude_maximum: 30
+      durability: 35
+      wound_threshold: 7
+      traits:
+      - name: limber
+        level: 1
+        morph_type: trait
+      aptitude_modifiers:
+      - name: COO
+        value: 5
+      - name: SOM
+        value: 5
+      - value: 5
+      cp_cost: 40
+      credit_cost: expensive
+    furies:
+      name: Furie
+      description: "Furies are combat morphs. These transgenic human upgrades feature genetics tailored for endurance, strength, and reflexes, as well as behavioral modifica- tions for aggressiveness and cunning. To offset tenden- cies for unruliness and macho behavior patterns, furies feature gene sequences promoting pack mentalities and cooperation, and they tend to be biologically female."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: bioweave armor (light)
+      - name: cortical stack
+      - name: enhanced vision
+      - name: neurachem
+        level: 1
+      - name: toxin filters
+      aptitude_maximum: 30
+      speed_modifier: 1
+      durability: 30
+      wound_threshold: 10
+      aptitude_modifiers:
+      - value: 5
+        name: COO
+      - value: 5
+        name: REF
+      - value: 10
+        name: SOM
+      - value: 5
+      cp_cost: 75
+      credit_cost:
+        name: expensive
+        minimum: 40000
+    futuras:
+      name: Futura
+      description: "An exalt variant, futura morphs were specially crafted for the “Lost generation.” Tailor-made for acceler- ated growth and adjusted for confidence, self-reliance, and adaptability, futuras were intended to help tran- shumanity regain its foothold. These programs proved disastrous and the line was discontinued, but some models remain, viewed by some with distaste and others as collectibles or exotic oddities."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: eidetic memory
+      - name: emotional dampers
+      aptitude_maximum: 30
+      durability: 35
+      wound_threshold: 7
+      aptitude_modifiers:
+      - name: COG
+        value: 5
+      - value: 5
+        name: SAV
+      - value: 10
+        name: WIL
+      - value: 5
+      cp_cost: 40
+      credit_cost:
+        name: exceptionnally_rare
+        minimum: 50000
+    ghosts:
+      name: Ghost
+      description: "Ghosts are partially designed for combat applications, but their primary focus is stealth and infiltration. Their genetic profile encourages speed, agility, and reflexes, and their minds are modified for patience and problem-solving."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: chameleon skin
+      - name: adrenal boost
+      - name: enhanced vision
+      - name: grip pads
+      aptitude_maximum: 30
+      durability: 45
+      wound_threshold: 9
+      aptitude_modifiers:
+      - name: COO
+        value: 10
+      - name: REF
+        value: 5
+      - name: SOM
+        value: 5
+      - name: WIL
+        value: 5
+      - value: 5
+      cp_cost: 70
+      credit_cost:
+        name: expensive
+        minimum: 40000
+    hibernoids:
+      name: Hibernoid
+      description: "Hibernoids are transgenic-modified humans with heavily-altered sleep patterns and metabolic processes. Hibernoids have a decreased need for sleep, requiring only 1-2 hours a day on average. They also have the ability to trigger a form of voluntary hibernation, effectively stopping their metabolism and need for oxygen. Hibernoids make excellent long-duration space travelers and habtechs, but these morphs are also favored by personal aides and hypercapitalists with non-stop lifestyles."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: circadian regulation
+      - name: cortical stack
+      - name: hibernation
+      aptitude_maximum: 25
+      durability: 35
+      wound_threshold: 7
+      aptitude_modifiers:
+      - value: 5
+        name: INT
+      - value: 5
+      cp_cost: 25
+      credit_cost: expensive
+    neotenics:
+      name: Neotenic
+      description: "Neotenics are transhumans modified to retain a child- like form. They are smaller, more agile, inquisitive, and less resource-depleting, making them ideal for habitat living and spacecraft. Some people find neo- tenic sleeves distasteful, especially when employed in certain media and sex work capacities."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      aptitude_maximum:
+        all: 30
+        SOM: 20
+      durability: 30
+      wound_threshold: 6
+      aptitude_modifiers:
+      - name: CPP
+        value: 5
+      - name: INT
+        value: 5
+      - name: REF
+        value: 5
+      - value: 5
+      size: small
+      traits:
+      - name: social stigma
+      cp_cost: 25
+      credit_cost: expensive
+    remade:
+      name: Remade
+      description: "The remade are completely redesigned humans: humans 2.0. Their cardiovascular systems are stronger, the digestive tract has been sanitized and restructured to eliminate flaws, and they have otherwise been opti- mized for good health, smarts, and longevity with nu- merous transgenic mods. The remade are popular with the ultimates faction. The remade look close to human, but are different in very noticeable and sometimes eerie ways: taller, lack of hair, slightly larger craniums, wider eyes, smaller noses, smaller teeth, and elongated digits."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: circadian regulation
+      - name: clean methabolism
+      - name: cortical stack
+      - name: eidetic memory
+      - name: enhanced respiration
+      - name: temperature tolerance
+      - name: toxin filters
+      aptitude_maximum: 40
+      durability: 40
+      wound_threshold: 8
+      aptitude_modifiers:
+      - name: COG
+        value: 10
+      - name: SAV
+        value: 5
+      - name: 10
+        value: SOM
+      - value: 5
+      - value: 5
+      traits:
+      - name: uncanny valler trait
+      cp_cost: 60
+      credit_cost:
+        name: expensive
+        minimum: 40000
+    rusters:
+      name: Ruster
+      description: "Adapted for survival with minimum gear in the not- yet-terraformed Martian environment, these transgenic morphs feature insulated skin for more effective ther- moregulation and respiratory system improvements to require less oxygen and filter carbon dioxyde, among other mods."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: enhanced respiration
+      - name: temperature tolerance
+      aptitude_maximum: 25
+      durability: 25
+      wound_threshold: 7
+      aptitude_modifiers:
+      - name: SOM
+        value: 5
+      - value: 5
+      cp_cost: 25
+      credit_cost: expensive
+    neo_avians:
+      name: Neo-avians
+      morph_type: uplift
+      description: "Neo-avians include ravens, crows, and gray parrots uplifted to human-level intelligence. Their physical sizes are much larger than their non-uplifted cous- ins (to the size of a human child), with larger heads for their increased brain size. Numerous transgenic modifications have been made to their wings, allow- ing them to retain limited flight capabilities at 1 g, but giving them a more bat-like physiology so they can bend and fold better, and adding primitive digits for basic tool manipulation. Their toes are also more articulated and now accompanied with an opposable thumb. Neo-avians have adapted well to microgravity environments, and are favored for their small size and reduced resource use."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      aptitude_maximum:
+        all: 25
+        SOM: 20
+      durability: 20
+      wound_threshold: 4
+      aptitude_modifiers:
+      - value: 5
+        name: INT
+      - value: 10
+        name: REF
+      - value: 5
+      attacks:
+      - name: Beak/Claw attack
+        damages: 1d10 DV
+        skill: unarmed comat skill
+      special_rules: flight
+      cp_cost: 25
+      credit_cost: expensive
+    neo_hominds:
+      name: Neo-Hominds
+      morph_type: uplift
+      description: "Neo-hominids are uplifted chimpanzees, gorillas, and orangutans. All feature enhanced intelligence and bipedal frames."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      aptitude_maximum: 25
+      durability: 30
+      wound_threshold: 6
+      aptitude_modifiers:
+      - value: 5
+        name: COO
+      - value: 5
+        name: INT
+      - value: 5
+        name: SOM
+      - value: 5
+      skills:
+      - name: climbing
+        value: 10
+      cp_cost: 25
+      credit_cost: expensive
+    octomorphs:
+      name: Octomorph
+      morph_type: uplift
+      description: "These uplifted octopi sleeves have proven quite useful in zero-gravity environments. They retain eight arms, their chameleon ability to change skin color, ink sacs, and a sharp beak. They also have increased cranial capacity and longev- ity, can breathe both air and water, and lack a skeletal structure so they can squeeze through tight spaces. Octomorphs typically crawl along in zero- gravity using their arm suckers and expelling air for propulsion and can even walk on two of their arms in low gravity. Their eyes have been enhanced with color vision, provide a 360-degree field of vision, and they rotationally adjust to keep the slit-shaped pupil aligned with “up.” A transgenic vocal system allows them to speak."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: chameleon skin
+      aptitude_maximum: 30
+      durability: 30
+      wound_threshold: 6
+      special_rules: "8 arms, 360° vision"
+      attacks:
+      - name: beak attack
+        damages: 1d10 DV
+        skill: unarmed combat
+      - name: ink attack
+        skill: exotic ranged weapons
+        skill_field: ink
+        effect: blinding
+      traits:
+      - name: limber
+        level: 2
+      skills:
+      - value: 30
+        name: swimming
+      - value: 10
+        name: climbing
+      aptitude_modifiers:
+      - value: 5
+        name: COO
+      - value: 5
+        name: INT
+      - value: 5
+      cp_cost: 50
+      credit_cost:
+        name: expensive
+        minimum: 30000
+    pleasure_pods:
+      name: Pleasur pod
+      morph_type: pod
+      description: "Pleasure pods are exactly what they seem—faux humans designed purely for intimate entertainment purposes. Pleasure pods have extra nerve clusters in their erogenous zones, fine motor control over certain muscle groups, enhanced pheromones, sanitized me- tabolisms, and the genetics for purring. Naturally, they are crafted for good looks and charisma and enhanced in other areas as well. Pleasure pods are capable of switching their sex at will to male, female, hermaph- rodite, or neuter."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: clean metabolism
+      - name: cyberbrain
+      - name: enhanced pheromones
+      - name: mnemonic augmentation
+      - name: pupper sock
+      - name: sex switch
+      aptitude_maximum: 30
+      durability: 30
+      wound_threshold: 6
+      aptitude_modifiers:
+      - name: INT
+        value: 5
+      - name: SAV
+        value: 5
+      - value: 5
+      cp_cost: 20
+      credit_cost: high
+    worker_pods:
+      morph_type: pod
+      name: Worker pod
+      description: "Part exalt human, part machine, these basic pods are virtually indistinguishable from humans. Worker pods are often used in menial labor jobs where interaction with humans is necessary."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      aptitude_maximum: 30
+      durability: 35
+      wound_threshold: 7
+      aptitude_modifiers:
+      - name: SOM
+        value: 10
+      - value: 5
+      cp_cost: 20
+      credit_cost: high
+    novacrab:
+      morph_type: pod
+      name: "Novacrab"
+      description: "Novacrabs are a pod design bio-engineered from coconut crab and spider crab stock and grown to a larger (human) size. Novacrabs are ideal for hazard- ous work environments as well as vacworker, police, or bodyguard duties, giving their ten 2-meter long legs, massive claws, and chitinous armor. They climb and handle microgravity well and can withstand a wide range of atmospheric pressure (and sudden pressure changes) from vacuum to deep sea. Novacrabs feature compound eyes (with human-equivalent image resolu- tion), gills, dexterous manipulatory digits on their fifth set of limbs, and transgenic vocal cords."
+      implants:
+      - name: basic biomods
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      - name: carapace armor
+      - name: enhanced respiration
+      - name: oxygen reserve
+      - name: puppet sock
+      - name: temperature tolerance
+      - name: vacuum sealing
+      aptitude_maximum: 30
+      durability: 40
+      wound_threshold: 8
+      aptitude_modifiers:
+      - name: SOM
+        value: 10
+      - value: 5
+      special_rules: "10 legs, carapace armor (11/11)"
+      special_attacks:
+      - name: claw attack
+        damages: DV 2d10
+      cp_cost: 60
+      credit_cost:
+        name: expensive
+        minimum: 30000
+    case:
+      morph_type: synthetic
+      name: "Case"
+      description: "Cases are extremely cheap, mass-produced robotic shells intended to provide an affordable remor- phing option for the millions of infugees created by the Fall. Though many varieties of case bot models exist, they are uniformly regarded as shoddy and inferior. Most case morphs are vaguely anthromor- phic, with a thin framework body, standing just shorter than an average human, and suffer from frequent malfunctions."
+      implants:
+      - name: access jack
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      movement_rate:
+      - name: walker
+        value: 4/16
+      aptitude_maximum: 20
+      durability: 20
+      wound_threshold: 4
+      aptitude_modifiers:
+      - value: -5
+      traits:
+      - name: lemon
+      - name: social stigma
+      cp_cost: 5
+      credit_cost: moderate
+    synth:
+      morph_type: synthetic
+      name: Synth
+      description: "Synths are anthromorphic robotic shells (androids and gynoids). They are typically used for menial labor jobs where pods are not as good of an option. Cheaper than many other morphs, they are com- monly used for people who need a morph quickly and cheaply or simply on a transient basis. Though they look humanoid, synths are easily recognizable as non-biological unless they have the synthetic mask option (p. 311)."
+      implants:
+      - name: access jack
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      movement_rate:
+      - name: walker
+        value: 4/20
+      aptitude_maximum: 30
+      durability: 40
+      wound_threshold: 8
+      aptitude_modifiers:
+      - name: SOM
+        value: 5
+      - value: 5
+      trais:
+      - name: uncanny valley
+      - name: social stigma
+      cp_cost: 30
+      credit_cost: high
+    arachnoids:
+      name: Arachnoid
+      morph_type: synthetic
+      description: "Arachnoid robotic shells are 1-meter in length, seg- mented into two parts, with a smaller head, like a spider or termite. They feature four pairs of 1.5-meter- long retractable arms/legs, capable of rotating around the axis of the body, with built-in hydraulics for propelling the bot with small leaps. The manipula- tor claws on each arm/leg can be switched out with extendable mini-wheels for high-speed skating movement. A smaller pair of manipulator arms near the head allows for closer handling and tool use. In zero-G environments, arachnoids can retract their arms/legs and maneuver with vectored air thrusters."
+      implants:
+      - name: access jack
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: enhanced vision
+      - name: extra limbs
+      - name: lidar
+      - name: pneumatic limbs
+      - name: radar
+      - name: mnemonic augmentation
+      movement_rate:
+      - name: walker
+        value: 4/20
+      - name: thrust vector
+        value: 8/40
+      aptitude_maximum: 30
+      durability: 40
+      wound_threshold: 8
+      armor: 8/8
+      aptitude_modifiers:
+      - value: 5
+        name: COO
+      - value: 10
+        name: SOM
+      cp_cost: 45
+      credit_cost:
+        name: expensive
+        minimum: 40000
+    dragonfly:
+      name: Dragonfly
+      morph_type: synthetic
+      description: "The dragonfly robotic morph takes the shape of a meter-long flexible shell with multiple wings and ma- nipulator arms. Capable of near-silent turbofan-aided flight in Earth gravity, dragonfly bots fare even better in microgravity."
+      implants:
+      - name: access jack
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      movement_rate:
+      - name: winged
+        value: 8/32
+      durability: 25
+      aptitude_maximum:
+        all: 30
+        SOM: 20
+      wound_threshold: 5
+      aptitude_modifiers:
+      - value: REF
+        name: 5
+      armor: 2/2
+      cp_cost: 20
+      credit_cost: high
+    flexbots:
+      name: Flexbot
+      description: "Designed for multi-purpose functions, flexbots can transform their shells to suit a range of situations and tasks. Their core frame consists of a half-dozen interlocking and shape-adjustable modules capable of auto-transforming into a variety of shapes: multi- legged walker, tentacle, hovercraft, and many others. Each module features its own sensor units and “bush robot” fractal-branching digits (each capable of break- ing into smaller digits, down to the micrometer scale, allowing for ultra-fine manipulation). The flexbot control computer is also distributed between modules. Individual flexbots are only the size of a large dog, but multiple flexbots can join together for larger mass operations, even taking on heavy-duty tasks such as demolition, excavation, manufacturing, robotics as- sembly, and so on."
+      morph_type: synthetic
+      implants:
+      - name: access jack
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      - name: fractal digits
+      - name: modular design
+      - name: shape adjusting
+      mobility_system:
+      - name: walker
+        value: 4/16
+      - name: hover
+        value: 8/40
+      aptitude_maximum: 30
+      durability: 25
+      wound_threshold: 5
+      armor: 4/4
+      cp_cost: 20
+      credit_cost:
+        name: expensive
+        minimum: 30000
+    reaper:
+      name: Reaper
+      morph_type: synthetic
+      description: "The reaper is a common combat bot, used in place of biomorph soldiers and typically operated via teleop- eration or by autonomous AI. The reaper’s core form is an armored disc, so that it can turn and present a thin profile to an enemy. It uses vector thrust nozzles to maneuver in microgravity, and also takes advan- tage of an ionic drive for fast movement over distance. Four legs/manipulating arms and four weapon pods are folded inside its frame. The reaper’s shell is made of smart materials, allowing these limbs and weapon mounts to extrude in any direction desired and even to change shape and length. In gravity environments, the reaper walks or hops on two or four of these limbs. Reapers are infamous due to numerous war XPs, and bringing one into most habitats will undoubtedly raise eyebrows, if not get you arrested."
+      implants:
+      - name: access jack
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      - name: 360-degree vision
+      - name: anti-glare
+      - name: cyber claws
+      - name: extra limbs
+      - name: heavy combat armor
+      - name: magnetic system
+      - name: pneumatic limbs
+      - name: puppet sock
+      - name: radar
+      - name: reflex booster
+      - name: shape adjusting
+      - name: structural enhancement
+      - name: t-ray emitter
+      - name: weapon mount
+        morph_type: articulated
+        value: 4
+      movement_rate:
+      - name: walker
+        value: 4/20
+      - name: hopper
+        value: 4/20
+      - name: ionic
+        value: 12/40
+      - name: vectored thrust
+        value: 4/20
+      aptitude_maximum: 40
+      speed_modifier: 1
+      durability: 50
+      wound_threshold: 10
+      aptitude_modifiers:
+      - name: COO
+        value: 5
+      - name: REF
+        value: 10
+      - name: SOM
+        value: 10
+      armor: 16/16
+      limbs: 4
+      cp_cost: 100
+      credit_cost:
+        name: expensive
+        value: 50000
+    slitheroids:
+      name: Slitheroid
+      morph_type: synthetic
+      description: "Slitheroid bots are synthetic shells taking the form of a 2-meter-long segmented metallic snake, with two re- tractable arms for tool use. Snake bots can coil, twist, and roll their bodies into a ball or hoop, moving either by slithering, burrowing, rolling, or pulling themselves along by their arms. The sensor suite and control com- puter are housed in the head."
+      implants:
+      - name: access jack
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      - name: enhanced vision
+      movement_rate:
+      - name: snake
+        value: 4/16
+      - name: rolling
+        value: 8/32
+      aptitude_maximum: 30
+      durability: 30
+      wound_threshold: 9
+      aptitude_modifiers:
+      - name: COO
+        value: 5
+      - name: SOM
+        value: 5
+      - value: 5
+      armor: 8/8
+      cp_cost: 40
+      credit_cost: expensive
+    swarmoid:
+      name: Swarmoid
+      morph_type: synthetic
+      description: "The swarmanoid is not a single shell per se, but rather a swarm of hundreds of insect-sized robotic micro- drones. Each individual “bug” is capable of crawling, rolling, hopping several meters, or using nanocopter fan blades for airlift. The controlling computer and sensor systems are distributed throughout the swarm. Though the swarm can “meld” together into a roughly child-sized shape, the swarm is incapable of tackling physical tasks like grabbing, lifting, or holding as a unit. Individual bugs are quite capable of interfacing with electronics."
+      implants:
+      - name: access jack
+      - name: basic mesh inserts
+      - name: cortical stack
+      - name: cyberbrain
+      - name: mnemonic augmentation
+      - name: swarm composition
+      movement_rate:
+      - name: walker
+        value: 2/8
+      - name: hopper
+        value: 4/20
+      - name: rotor
+        value: 4/32
+      aptitude_maximum: 30
+      durability: 30
+      wound_threshold: 6
+      special_rules: swarm composition
+      cp_cost: 25
+      credit_cost: expensive
+    infomorphs:
+      name: Infomorph
+      morph_type: synthetic
+      description: "nfomorphs are digital-only forms—they lack a physi- cal body. Infomorphs are sometimes carried by other characters instead of (or in addition to) a muse in a ghostrider module (p. 307). Full rules for infomorphs can be found on p. 264."
+      implants:
+      - name: mnemonic augmentation
+      aptitude_maximum: 40
+      speed_modifier: 2
+      cp_cost: 0
+      credit_cost: free

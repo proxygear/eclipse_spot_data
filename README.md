@@ -1,7 +1,5 @@
 ![Eclipse Spot](misc/eclipse_spot_logo.jpg)
 
-#Eclipse Spot Data
-
 Data YML for [Eclipse Phase RPG](http://eclipsephase.com) currently used on [Eclipse Spot](http://eclipsespot.com)
 This repository was created first to allow people to accelerate data input and correct tipos and other mistakes.
 However you are free to use it the way you want as long as you respect the Licence requirement.
@@ -123,8 +121,19 @@ $> bundle update eclipse_spot_data
 Well easy, just an interface to load data type by language
 
 ````.ruby
-  EclipseSpot::Data.get :traits, :en
-  #=> a big hash
+  es_data = EclipseSpot::Data.new
+  es_data.books #return book names
+  #=> ['core', 'ego_hunter', ...]
+  es_data.types #return type names
+  #=> ['backgrounds', 'factions', ...]
+  es_data.lang #return available lang
+  #=> ['en', 'fr', ...]
+  es_data.exist?(book: :core, type: :factions, lang: :en)
+  #=> true
+  es_data.exist?(type: :space_blobs)
+  #=> false
+  es_data.load! :core, :factions, :en
+  #=> a big hash from yml file with lang/type levels removed
 ````
 
 ## Licence

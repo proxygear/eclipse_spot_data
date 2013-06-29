@@ -1,0 +1,589 @@
+en:
+  skill_categories: "Combat, Mental, Physical, Psi, Social, Technical, Vehicle, Knowledge"
+  skills:
+    academics:
+      name: "Academics"
+      knowledge: true
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "Academics covers any sort of specialized non-applied knowledge you can only get through intensive education. Most theoretical and applied sciences, social sciences, transhumanities, etc. are covered by this skill. Most of the other skills listed in this chapter could also be taken as an Academics field, reflecting a working theoretical knowledge of the skill—for example, Academics: Armorer or Academics: Interrogation."
+      usage: "Academics is used when a character wishes to call upon a specific body of knowledge. For example, Academics: Chemistry could be used to identify a particular substance, understand an unusual chemical reaction, or determine what elements are needed to nanofabricate something that requires exotic materials. At the gamemaster’s discretion, some Academics-related tests might not be defaultable, given that only someone who has been educated in that subject is likely to be able to tackle it."
+      specialisable: true
+      specialisations: "As appropriate to the field"
+      has_field: true
+      sample_fields: "Archeology, Astrobiology, Astronomy, Astrophysics, Astrosociology, Biochemistry, Biology, Botany, Computer Science, Cryptography, Economics, Engineering, Genetics, Geology, Linguistics, Mathematics, Memetics, Nanotechnology, Old Earth History, Physics, Political Science, Psychology, Sociology, Xeno-archeology, Xenolinguistics, Zoology"
+    animal_handling:
+      name: "Animal handling"
+      category_names: "Social"
+      knowledge: false
+      linked_aptitude_name: SAV
+      aptitupde_defaulting: false
+      description: "Skilled animal handlers are able to train and control a wide variety of natural and transgenic animals, including partial uplifts. Though many animal species went extinct during the Fall, a few \"ark\" and zoo habitats keep some species alive, and many others can be resurrected from genetic samples. Exotic animals are considered a sign of prestige among the hypercorp elites, and guard animals are occasionally used to protect high-security installations. Likewise, many habitats and settlements employ small armies of partially uplifted, genetically modified, and behavior-controlled creatures for sanitation or other purposes. Many new and strange breeds of animal are created daily to serve a variety of roles."
+      usage: "Animal Handling is used whenever you are trying to manipulate an animal, whether your intent is to calm it down, keep it from attacking, intimidate it, acquire its trust, or goad it into attacking. Your Margin of Success determines how effective you are at convincing the creature. At the gamemaster’s discretion, modifiers may be applied to the test. Likewise, winning an animal over may sometimes take time, and so could be handled as a Task Action with a timeframe of five minutes or more."
+      specialisable: true
+      specialisations: "Per animal species (dogs, horses, smart rats, etc.)"
+      has_field: false
+      sample_fields: ""
+      aditional_rules: "Training animals is a time-consuming task requiring repeated efforts and rewards to reinforce the trained behavior. Treat this as a Task Action with a timeframe of one day to one month, depending on the complexity of the action. Apply modifiers to this test based on the relative intelligence of the animal being trained, how domestic it is, and the complexity of the task. Once an animal has been trained, commanding it is treated as a Simple Success Test (p. 118) except for unusual or stressful situations, in which case the trainer receives a +30 modifier on their Animal Handling Tests when convincing the animal to complete the trained action."
+    art:
+      name: "Art"
+      knowledge: true
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Art confers the ability to create and evaluate artistic endeavors. This is a particularly useful skill in Eclipse Phase, especially in the post-scarcity economies where creativity and vision can be a key component to a character’s reputation."
+      usage: "The Art skill can be used to either create a new work of art or to duplicate an existing piece of art in the hopes of passing it off as your own. The skill can also determine the approximate value of a piece of art either on the open market, for monetary exchange systems, or in terms of reputation for the artist."
+      specialisable: true
+      specialisations: "As appropriate to the field"
+      has_field: true
+      sample_fields: "Architecture, Criticism, Dance, Drama, Drawing, Painting, Performance, Sculpture, Simulspace Design, Singing, Speech, Writing"
+    beam_weapons:
+      name: "Beam weapons"
+      category_names: Combat
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "The Beam Weapons skill covers the usage and maintenance of standard coherent beam energy weapons such as lasers, particle beam weapons, plasma rifles, and microwave weapons (p. 338)."
+      usage: "A player uses their Beam Weapons skill whenever attacking with a beam weapon in combat (p. 191). Beam Weapons may also be used for tests involving maintenance of the weapon, but not for repairing or modifying the weapon (that would be Hardware: Armorer skill)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Lasers, Microwave Weapons, Particle Beam Weapons, Plasma Rifles"
+      category_names: "Combat"
+    blades:
+      name: "Blades"
+      category_names: Combat
+      knowledge: false
+      linked_aptitude_name: SOM
+      aptitupde_defaulting: false
+      description: "The Blades skill covers the usage and maintenance of standard bladed weapons (p. 334)."
+      usage: "A player uses their Blades skill whenever attacking with a blade weapon in melee combat (p. 191). Blades may also be used for tests involving maintenance of the weapon, but not for repairing or modifying the weapon (that would be Hardware: Armorer skill). This skill is used for blade weapons implanted in the body at the end of an appendage (hands, forearms, feet, octomorph arms, etc.), but the Exotic Melee Weapon skill is used for blades implanted in other parts of the body."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Axes, Implant Blades, Knives, Swords"
+      category_names: "Combat"
+    climbing:
+      category_names: Physical
+      name: "Climbing"
+      knowledge: false
+      linked_aptitude_name: SOM
+      aptitupde_defaulting: false
+      description: "Climbing is the skill of ascending and descending sheer surfaces with or without the aid of specialized equipment."
+      usage: "his skill is used whenever a character wishes to scale a climbable surface. For heights greater than one story, climbing is handled as a Task Action with a timeframe equivalent to one meter per Action Phase. For rappelling, the timeframe for descent is 50 meters per Action Turn. Climbing gear (p. 332-333) provides appropriate modifiers."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Assisted, Freehand, Rappelling"
+    clubs:
+      name: "Clubs"
+      category_names: Combat
+      knowledge: false
+      linked_aptitude_name: SOM
+      aptitupde_defaulting: false
+      description: "The Clubs skill covers the usage and maintenance of standard blunt melee weapons such as batons or sticks (see p. 334)."
+      usage: "Players use their Clubs skill whenever they want to attack with a blunt weapon in melee combat (p. 191). The Clubs skill may also be used for tests involving maintenance of the weapon, but not for repairing or modifying the weapon (that would be Hardware: Armorer skill)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Batons, Hammers, Staffs"
+    control:
+      name: "Control"
+      category_names: "Mental, Psi"
+      knowledge: false
+      linked_aptitude_name: WIL
+      aptitupde_defaulting: false
+      description: "Control is the use of psi to manipulate individuals or actively penetrate their mental processes. This skill is only available to characters with the Psi trait (p. 147)."
+      usage: "Use Control when taking a psionic tour through a foreign ego—messing around included. See Psi, p. 220."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "By sleight"
+      category_names: "Mental, Psi"
+    deception:
+      name: "Deception"
+      category_names: Social
+      knowledge: false
+      linked_aptitude_name: SAV
+      aptitupde_defaulting: false
+      description: "Deception is your ability to act, bluff, con, fast talk, lie, misrepresent, and pretend. Accomplished users of deception are able to convince anyone of nearly anything. This skill does not include using a physical disguise to appear to be another person (the Impersonate skill covers that area)."
+      usage: "Use this skill whenever you want to deceive someone with words or gestures. A successful skill test means that you have passed off your deception convincingly. At the gamemaster’s discretion, someone who is actively alert for signs of deception may make an Opposed Test using the Kinesics skill."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Acting, Bluffing, Fast Talk"
+      category_names: "Social"
+    demolition:
+      name: "Demolition"
+      category_names: Technical
+      knowledge: false
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Disguise is the art of physically altering your appearance so that you look like someone else. This includes both the use of props (wigs, contacts, skin pigments) and the altering of subtle physical characteristics (gait, posture, poise)."
+      usage: "Use Disguise to fool someone into thinking you’re someone you’re not. This can be used to hide your identity or to make yourself look like someone in particular. When used against someone who knows your true look or the appearance of the person you are imitating, this is handled as an Opposed Test against Perception or Investigation."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Cosmetic, Theatrical"
+    exotic_melee_weapons:
+      name: "Exotic melee weapons"
+      knowledge: false
+      linked_aptitude_name: SOM
+      aptitupde_defaulting: false
+      description: "The Exotic Melee Weapon skill covers the use and maintenance of all melee weapons not covered by the Clubs or Blades skills (see p. 334)."
+      usage: "Use the Exotic Melee Weapon skill when attacking someone with an exotic melee weapon in melee combat (p. 191)."
+      has_field: true
+      sample_fields: "Morning Star, Spear, Whip"
+      specialisable: false
+      specialisations: ""
+      category_names: "Combat"
+    exotic_ranged_weapons:
+      category_names: Physical
+      name: "Exotic ranged weapons"
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "Exotic Ranged Weapon skill includes the use and maintenance of all ranged weapons not covered by the Beam, Flechette, Kinetic, Sonic, or Throwing Weapons skills."
+      usage: "Use this skill whenever attacking with an exotic ranged weapon in ranged combat (p. 191)."
+      has_field: true
+      sample_fields: "Blowgun, Crossbow, Flamethrower, Slingshot"
+      specialisable: false
+      specialisations: ""
+      category_names: "Combat"
+    flight:
+      category_names: Physical
+      name: "Flight"
+      knowledge: false
+      linked_aptitude_name: SOM
+      aptitupde_defaulting: false
+      description: "light is the skill of using your body to fly. This skill is used when sleeved in or jamming a winged or otherwise flight-capable morph (manual and remote-control flight are handled using Pilot skill)."
+      usage: "use this skill whenever you need to make an aerial maneuver, land in difficult conditions, maintain your course in steep winds, or otherwise keep from crashing or falling."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Diving, Landing, Takeoff, specific maneuvers"
+      category_names: "Physical"
+    fray:
+      name: "Fray"
+      category_names: "Combat"
+      knowledge: false
+      linked_aptitude_name: REF
+      aptitupde_defaulting: false
+      description: "Fray is the ability to get out of the way of incoming attacks, debris, or inconvenient passers-by. Characters that have a high Fray score are able to react quicker than others when dodging or maneuvering."
+      usage: "Whenever a character is physically attacked by an opponent in melee combat, roll Fray to avoid getting hit (see p. 191). Fray may also be used to dodge other events that may harm the character, such as avoiding a charging vehicle or jumping out of the way of a collapsing stack of crates."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Blades, Clubs, Full Defense, Unarmed"
+    freefall:
+      name: "Freefall"
+      category_names: "Physical"
+      knowledge: false
+      linked_aptitude_name: REF
+      aptitupde_defaulting: false
+      description: "Free Fall is about moving in free-fall and microgravity environments."
+      usage: "Use whenever you need to maneu- ver in a zero-g situation, such as propelling yourself across a large open space or making sure you don’t accidentally send yourself spinning off into space. Free Fall is also used when moving with spacesuit maneuvering jets and when parachuting."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Microgravity, Parachuting, Vacsuits"
+    freerunning:
+      name: "Freerunning"
+      category_names: "Physical"
+      knowledge: false
+      linked_aptitude_name: SOM
+      aptitupde_defaulting: false
+      description: "Freerunning is part running, part gymnas- tics. It is about moving fast, maneuvering over/under/ around/through obstacles, and placing your body where it needs to go. Freerunning/parkour is a popular pastime in habitats where open space is limited."
+      usage: "Use Freerunning whenever you need to overcome an obstacle via movement, such as hurdling a railing, rolling across the hood of a car, jumping across a pit, or swinging around a pole. Freerunning is also used for sprinting (p. 191) and full defense against attacks (p. 198)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Balance, Gymnastics, Jumping, Running"
+    gunnery:
+      name: "Gunnery"
+      category_names: "Combat"
+      knowledge: false
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Gunnery skill covers the use and main- tenance of large, vehicular, or non-portable weapons systems. Firing these weapons is more like playing a video game than firing a gun."
+      usage: "Use Gunnery when attacking with a vehicle-mounted weapon or weapon emplacement in ranged combat (p. 191)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Artillery, Missiles"
+    hardware:
+      name: "Hardware"
+      category_names: "Technical"
+      knowledge: false
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "This skill encompasses the ability to build, repair, physically hack, and upgrade equipment of a specific type."
+      usage: "Hardware is primarily used to repair devices, vehicles, habitat systems, or synthetic morphs. See Building, Repairing, and Modifying below."
+      has_field: true
+      sample_fields: "Aerospace (all air and space vehicles), Armorer (armor and weapons), Electronics (all computerized devices), Groundcraft, Implants, In- dustrial (habitat, factory, and life support systems), Nautical (watercraft and submarines), Robotics (synthetic morphs)"
+      specialisable: true
+      specialisations: "As appropriate to the field"
+      aditional_rules: "Building: Creating an item from scratch is handled as a Task Action with a timeframe determined by the gamemas- ter. The timeframe should be set according to the com- plexity of the object and could range from an hour (constructing a set of shelves) to days (assembling a robot from spare parts) to even months (building a house). Numerous factors may apply modifiers to the test, such as the use of entoptic blueprints/help manuals (+20) or poor working conditions (–10 to –30). Tools are also a factor, perhaps making the job easier (superior tools +10 to +30), more difficult (poor or inadequate tools, –10 to –30), or even impossible (lack of required tools).
+        Repairing: Damaged items may be repaired in a similar manner. See the rules for Synthmorph and Object Repair, p. 209.
+        Modifying: Altering an object’s design and function follows the same basic rules as build and repair, above. The time- frame is determined by the gamemaster as appropriate to the modification."
+    impersonation:
+      name: "Impersonation"
+      category_names: "Social"
+      knowledge: false
+      linked_aptitude_name: SAV
+      aptitupde_defaulting: false
+      description: "Impersonation is the skill of trying to pass yourself off as someone else in social situations, including virtual ones. This includes copying manner- isms and speech patterns and using accumulated in- formation to convince others that you are that person. In a universe where appearance is highly variable, the question of identity is largely one of both trust and picking up on behavioral quirks and verbal cues to recognize a given individual."
+      usage: "Sometimes it’s fun to pretend you’re someone else, and sometimes it’s profitable or lifesaving. Use this skill whenever you attempt to convince someone that you are actually someone else through some sort of social or online interaction. Forks use this skill when passing themselves off as their alpha ego. Impersonate is handled as an Op- posed Test against the Kinesics skill."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Avatar, Face-to-Face, Verbal"
+    infiltration:
+      name: "Infiltration"
+      category_names: "Physical"
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "Infiltration is the art of escaping detection."
+      usage: "Use Infiltration whenever you need to physically hide or move with stealth to avoid someone sensing you, whether you are hiding behind a tree, sneaking past a guard, or blending into a crowd. Infiltration can also be used to follow people (shadowing) without them detecting you. Infiltration is an Opposed Test against the Perception of whom- ever you are hiding from. The gamemaster may wish to roll such tests in secret so the player does not know whether they have succeeded or failed."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Blending In, Hiding, Shadowing, Sneaking"
+    language:
+      name: "Language"
+      knowledge: true
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Language covers the speaking and reading of languages other than the player’s native tongue. A speaker is considered fluent at a skill level of 50; anything above this indicates further refine- ment in technical vocabulary, accents, and knowl- edge of dialects."
+      usage: "Use the Language skill whenever you want to speak, understand, or read something in a language at which you are skilled. Most speaking and reading comprehension tests can be considered Simple Success Tests if your skill is over 50, unless the gamemaster rules the subject is suffificiently complex that a non-native speaker would have trouble under- standing it."
+      has_field: true
+      sample_fields: "Arabic, Cantonese, English, French, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish"
+      specialisable: true
+      specialisations: "As appropriate to the field, representing dialects, technical jargon, and subcultural slang."
+      aditional_rules: "LANGUAGES IN ECLIPSE PHASE With the Fall of Earth, the languages that remain most prominent in the solar system are those that were extensively carried into space by countries and hypercorps with aggressive space programs or by the large populations of poor laborers and infomorph refugees that followed. No single language dominated the realm of space expansion, and multilingual- ism was common. Many habitats and (sub) cultural groupings cling to specific languages as a method of retaining cultural identity. De- spite the availability of instant translation via the mesh, many people remain versed in two or more languages. The ten most common languages in the solar system by speaking populations are: Arabic, Cantonese, English, French, Hindi, Japanese, Mandarin, Portuguese, Russian, and Spanish. Other languages that remain strong include Bengali, Dutch, Farsi, German, Italian, Javanese, Korean, Polish, Punjabi, Swedish, Tamil, Turkish, Urdu, Vietnamese, and Wu. Some languages were effectively lost during the Fall, especially those in some undeveloped regions, as their speaking populations did not migrate into space pre-Fall and were not privileged enough to sur- vive in large numbers as infomorph refugees."
+    infosec:
+      name: "Infosec"
+      category_names: "technical"
+      knowledge: false
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "Infosec is short for “information secu- rity.” It encompasses training in electronic intrusion and counterintrusion techniques, as well as encryption and decryption."
+      usage: "Infosec is used both for hacking into electronic devices and mesh networks and for protecting them. See the Mesh chapter, p. 234, for more details."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Brute-Force Hacking, Decryption, Probing, Security, Sniffing, Spoofing"
+    interest:
+      name: "Interest"
+      knowledge: true
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "Interest includes just about any topic that captures your attention that isn’t covered by another skill. This includes hobbies, obsessions, causes, pastimes, and other recreational pursuits."
+      usage: "Use the Interest skill whenever you need to recall or use knowledge related to the particular interest in question."
+      has_field: true
+      sample_fields: "Ancient Sports, Celebrity Gossip, Conspiracies, Factor Trivia, Gambling, Hypercorp Politics, Lunar Habitats, Martian Beers, Old Earth Nation-States, Reclaimer Blogs, Science Fiction, Scum Drug Dealers, Spaceship Models, Triad Economics, Underground XP"
+      specialisable: true
+      specialisations: "As appropriate to the field"
+    interfacing:
+      name: "Interfacing"
+      category_names: "technical"
+      knowledge: false
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "Interfacing is about using computerized electronic devices and software."
+      usage: "Use Interfacing to understand an electronic device you are not familiar with, use a pro- gram according to its normal operating parameters, manipulate electronic files of various types (including images, video, XP, and audio files), scan for wireless devices, and otherwise interact with and command your ecto, muse, and other computerized devices. Some Interfacing actions may be Task Actions, with a timeframe determined by the gamemaster. For more detail, see the Mesh chapter, p. 234."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Forgery, Scanning, Stealthing, by program"
+    intimidation:
+      name: "Intimidation"
+      category_names: "social"
+      knowledge: false
+      linked_aptitude_name: SAV
+      aptitupde_defaulting: false
+      description: "Intimidation is convincing someone to do what you want based on direct threats (implied or actual) or sheer force of personality."
+      usage: "Use Intimidation to scare someone into submission, browbeat them into getting your way, command them to follow your orders, or berate them into giving up information. Influence is handled as an Opposed Test, pitted against the target’s WIL + WIL + SAV."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Interrogation, Physical, Verbal"
+    investigation:
+      name: "Investigation"
+      category_names: "Mental"
+      knowledge: false
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Investigation is the art of analyzing evidence, piecing together clues, solving mysteries, and making logical deductions from groups of facts. Investigation differs from Perception in that it is the conscious search for clues or pieces of a puzzle."
+      usage: "Use Investigation to draw conclu- sions from assorted details. For example, Investigation could be used to determine the likely sequence of events at a crime scene, determine a possible social connection between two people, or deduce how an enemy made their escape. Investigation is a great way to provide clues to players, especially when the subject matter is something their character might know well but the player does not."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Evidence Analysis, Logical Deductions, Physical Investigation, Physical Tracking"
+    kinesics:
+      name: "Kinesics"
+      category_names: "Social"
+      knowledge: false
+      linked_aptitude_name: SAV
+      aptitupde_defaulting: false
+      description: "Kinesics is the art of empathy and non- vocal communication."
+      usage: "Use Kinesics to read body language, tells, social cues, and other subconscious indicators. It can also be used to emote more effectively. Kinesics is used defensively whenever someone is trying to deceive you; make an Opposed Test against that person’s Deception or Impersonation skill. Though synthetic morphs are also designed to emote, reading them is not as easy. Apply a –30 modifier when judging a synthetic morph inhabited by a character or AGI. Likewise, standard AIs are also difficult to read; apply a –60 modifier when judging a synthetic morph or pod operated by an AI."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "udge Intent, Nonvocal Communication"
+      aditional_rules: "JUDGING EMOTIONS AND INTENTIONS Transhumans are empathic beings, and so you can attempt to gauge the demeanor and/or intent of someone you are dealing with by rolling a Kinesics Test. This attempt to read someone is far from exact, however, and it is easy to misjudge. The gamemaster should make this test in secret and only allow a hint if successful — it is not possible to read someone with absolute certainty. If the person being judged is intentionally trying to deceive the character, this should be an Opposed Test against their Deception skill. NONVOCAL COMMUNICATION Experts in Kinesics can effectively communicate with each other simply by posture, stances, gestures, demeanors, and looks. Such communication is necessarily limited in the amount of information it can convey, but feelings, attitudes, affirmation/negation, and simple concepts may be passed. To effectively communicate complex concepts, the gamemaster may require successful Kinesics Tests from both parties, applying modifiers as appropriate."
+    kinetic_weapons:
+      name: "Kinetic weapons"
+      category_names: "combat"
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "Kinetic Weapons covers the use and maintenance of standard kinetic projectile weapons like firearms and railguns (p. 335)."
+      usage: "Use this skill whenever attacking with a kinetic weapon in ranged combat (p. 191)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Assault Rifles, Machine Guns, Pistols, Sniper rifles, Submachine Guns"
+    medicine:
+      name: "Medicine"
+      category_names: "technical"
+      knowledge: false
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "Medicine is the applied care and mainte- nance of biological beings and life."
+      usage: "Use Medicine whenever you need to apply medical care beyond the immediate help provided by first responders. This includes conduct- ing physical exams, diagnosing ailments, treating problems and illnesses, surgery, using biotech and nanotech medical tools, and long-term care. See Heal- ing and Repair, p. 208."
+      has_field: false
+      sample_fields: "Biosculpting, Exotic Biomorphs, Gene Therapy, General Practice, Implant Surgery, Nanomedicine, Mercurials (by type), Paramedic, Pods, Psychiatry, Remote Surgery, Trauma Surgery, Veterinary"
+      specialisable: true
+      specialisations: "As appropriate to the field"
+    navigation:
+      name: "Navigation"
+      category_names: "mental"
+      knowledge: false
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Navigation is the art of finding your way, whether using AR maps, a compass, the stars, or an astrogation AI."
+      usage: "Use Navigation whenever you need to plot out a course, determine a direction, or otherwise keep from getting lost."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Astrogation, Map Making, Map Reading"
+    networking:
+      name: "Networking"
+      category_names: "social"
+      knowledge: false
+      linked_aptitude_name: SAV
+      aptitupde_defaulting: false
+      description: "Networking is your skill at working your contacts, trading favors, and keeping your finger on the pulse of a particular faction or cultural grouping."
+      usage: "Use Networking to gather infor- mation or call on services using your Reputation (see Reputation and Social Networks, p. 285)."
+      has_field: true
+      sample_fields: "Autonomists (@-rep), Criminals (g-rep), Ecologists (e-rep), Firewall (i-rep), Hypercorps (c- rep), Media (f-rep), Scientists (r-rep). At the game- master’s discretion, this list can be expanded to other (sub)cultural groupings"
+      specialisable: true
+      specialisations: "As appropriate to the field"
+    palming:
+      name: "Palming"
+      category_names: "physical"
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "Palming is the skill of handling items quick- ly and nimbly without others noticing. Palming is not only about dexterous manipulation of objects but also relies heavily on obfuscation, timing, and misdirection."
+      usage: "Use Palming any time you are trying to conceal an item on your person, shoplift, pick a pocket, surreptitiously discard something, or perform a magic trick. Palming is an Opposed Test against the Perception of any onlookers. The game- master may wish to make this roll secretly."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Pickpocketing, Shoplifting, Tricks"
+    perception:
+      name: "Perception"
+      category_names: "Mental"
+      knowledge: false
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Perception is the use of your physical senses (including cybernetic) and awareness of the physical world around you. Perception differs from Investigation in that it is noticing things by chance, rather than actively searching for something."
+      usage: "Use Perception whenever you wanted to take a detailed account of your surround- ings (see Detailed Perception, p. 190). Perception can also be considered an Automatic Action (see Basic Perception, p. 190) and so the gamemaster may call for a Perception Test to determine if you notice something; it is recommended that such tests be rolled secretly by the gamemaster. Perception is also used as an Opposed Test whenever someone around you is trying to be sneaky with Infiltration or Palming."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Aural, Olfactory, Tactile, Taste, Visual"
+    persuasion:
+      name: "Persuasion"
+      category_names: "social"
+      knowledge: false
+      linked_aptitude_name: SAV
+      aptitupde_defaulting: false
+      description: "Persuasion is the art of convincing someone to do what you want through the use of words and gestures. This does not include persuasion through threats or force (that is covered by Intimida- tion) or by lying (covered by Deception)."
+      usage: "Use Persuasion any time you are trying to bargain with, convince, or manipulate some- one. This can include motivating your subordinates or peers to take action, seducing a companion, winning a political debate, or negotiating a contract, among other things. Persuasion is handled as an Opposed Test against the target’s WIL + WIL + SAV when one person is simply trying to win over another. If both parties are trying to convince each other, make it an Opposed Test between Persuasion skills."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Diplomacy, Morale Boosting, Negotiating, Seduction"
+    pilot:
+      name: "Pilot"
+      category_names: "vehicle"
+      knowledge: false
+      linked_aptitude_name: REF
+      aptitupde_defaulting: false
+      description: "Pilot is your skill at driving/flying a ve- hicle of a particular type"
+      usage: "You use Pilot skill whenever you need to maneuver, control, or avoid crashing a vehicle, whether you are in the pilot’s seat, remote controlling a robot, or directly jamming a vehicle with VR. Each vehicle has a Handling modifier that applies to this test, along with other situational modifiers (see Bots, Synthmorphs, and Vehicles, p. 195)."
+      has_field: true
+      sample_fields: "Aircraft, Anthroform (walkers), Exotic Vehicle, Groundcraft (wheeled or tracked), Spacecraft, Watercraft"
+      specialisable: true
+      specialisations: "As appropriate to the field"
+    profession:
+      name: "Profession"
+      knowledge: true
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "Profession skills indicate training in a profession practiced in Eclipse Phase. This can indi- cate either formal training or informal, on-the-job type training, and includes both legal and extralegal trades."
+      usage: "se Profession to perform work- related tasks for a specific trade (i.e. mining, balancing accounts, designing a security system, etc.) or to refer- ence specialized knowledge that someone trained in that profession might have."
+      has_field: true
+      sample_fields: "Accounting, Appraisal, Asteroid Prospecting, Banking, Cool Hunting, Con Schemes, Distribution, Forensics, Lab Technician, Mining, Police Procedures, Psychotherapy, Security Ops, Smuggling Tricks, Social Engineering, Squad Tactics, Viral Marketing, XP Production"
+      specialisable: true
+      specialisations: "As appropriate to the field"
+    programming:
+      name: "Programming"
+      category_names: "technical"
+      knowledge: false
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "Programming is your talent at writing and modifying software code."
+      usage: "Use Programming to write new programs, modify or patch existing software, break copy protection, find or introduce exploitable flaws, write virii or worms, design virtual settings, and so on. See the Mesh chapter, p. 234. Programming is also applied when using nanofabrication devices."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "AI Code, Malware, Nanofabrication, Piracy, Simulspace Code"
+      aditional_rules: "NANOFABRICATION Nanofabrication is use of Programming skill to create objects using a cornucopia machine, fabber, or maker (p. 327). If you have appropriate blueprints and raw materials, most uses of a nanofabricator can be treated as a Simple Success Test (p. 118). If you wish to create an item for which you do not have blueprints or the proper raw materials, however, or you wish to alter an item’s design, then a Nanofabrication Test is called for. See Nanofabrication, p. 284. Specializations: Art, Clothing, Electronics, Food, Forg- ery, Weapons"
+    protocol:
+      name: "Protocol"
+      category_names: "Social"
+      knowledge: false
+      linked_aptitude_name: SAV
+      aptitupde_defaulting: false
+      description: "Protocol is the art of making a good impression in social settings. This includes keeping up with the latest memes, trends, gossip, interests and habits of various (sub)cultural group."
+      usage: "Use Protocol whenever you need to choose your words carefully, determine who is the appropriate person to speak to, impress someone with your grasp of customs, or otherwise fit into a specific social/cultural grouping. Part etiquette, part streetwise, Protocol allows you to navigate treacherous social waters and put people at ease. If the character is deal- ing with a suspicious or hostile audience, make this an Opposed Test against the target’s WIL + WIL + SAV."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Anarchist, Brinker, Criminal, Factor, Hypercorp, Infomorph, Mercurial, Reclaimer, Preservationist, Scum, Ultimate"
+      aditional_rules: "NEGATING SOCIAL GAFFES Sometimes a player will make a mistake that their character never would, whether that’s failing to stand in the presence of hypercorp royalty, confusing a gang leader for a peon, or accidentally insulting someone’s heritage. In cases like this, the player may make a Pro- tocol Test for the appropriate field in order to negate the gaffe. If successful, the character never actually screwed up, or at least managed to cover their tracks without ruffling any feathers."
+    psi_assault:
+      name: "Psi assault"
+      category_names: "mental, psi"
+      knowledge: false
+      linked_aptitude_name: WIL
+      aptitupde_defaulting: false
+      description: "Psi Assault is the skill of damaging another ego’s mind. It can only be purchased by charac- ters with the Psi trait (p. 147)."
+      usage: "Use Psi Assault when attacking another ego’s mind in psi combat."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "By sleight"
+    psychosurgery:
+      name: "Psychosurgery"
+      category_names: "technical"
+      knowledge: false
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Psychosurgery is the use of machine-aided psychological techniques to repair, damage, or manipulate the psyche."
+      usage: "Use Psychosurgery to attempt the tricky process of editing someone’s mind (see Psycho- surgery, p. 229). Psychosurgery can be used benefi- cially to help patients who remember their deaths, feel disconnected after remorphing, or have experienced other sorts of mental traumas. This skill may also be used to interrogate, torture, or otherwise mess with captive minds in a VR environment."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Memory Manipulation, Personality Editing, Psychotherapy"
+      aditional_rules: ""
+    research:
+      name: "Research"
+      category_names: "technical"
+      knowledge: false
+      linked_aptitude_name: COG
+      aptitupde_defaulting: false
+      description: "Research is the skill for looking up infor- mation on the Mesh: searching, sifting, mining, and interpreting data. This includes knowing where to look, what links to follow, and how to optimize your queries."
+      usage: "Use the Research skill whenever you need to look up the answer to a question, find databases, search archives, or track down anything online. Research is typically a Task Action with the timeframe and difficulty modifier determined by the gamemaster. See the Online Research, p. 249. Specializations: Tracking, by information type"
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Tracking, by information type"
+    scrounging:
+      name: "Scrounging"
+      category_names: "mental"
+      knowledge: false
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Scrounging is your ability to find things, particularly things of use or value that are concealed, buried, or hard to find. This includes knowing where to look and what to look for. Scrounging differs from both Perception and Investigation in that it is about finding items hidden among others, and in most cases about finding something in particular (food, valu- ables, etc.)."
+      usage: "Use Scrounging to dumpster-dive a meal, search ruins for relics, find bargains at a bazaar, forage berries in the forest, locate a spacesuit in an abandoned ship, etc. Scrounging is typically handled as a Task Action with a timeframe and difficulty modifier determined by the gamemaster."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Bazaars, Forests, Habitats, Ruins"
+    seeker_weapons:
+      name: "Seeker weapons"
+      category_names: "combat"
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "Seeker Weapons covers the use and maintenance of seeker launchers (p. 339) and seeker missiles (p. 340)."
+      usage: "Use this skill when attacking with a seeker in ranged combat (p. 191)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Armband, Pistol, Rifle, Underbarrel"
+    sense:
+      name: "Sense"
+      category_names: "mental, psi"
+      knowledge: false
+      linked_aptitude_name: INT
+      aptitupde_defaulting: false
+      description: "Sense is the use of psi to scan egos. Only characters with the Psi trait (p. 147) may purchase this skill."
+      usage: "See Psi, p. 220."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "By sleight"
+    spray_weapons:
+      name: "Spray weapons"
+      category_names: "combat"
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "The Spray Weapons skill covers the use and maintenance of cone-effect ranged weapons (see Spray Weapons, p. 340)."
+      usage: "A player uses their Sonic Weapons skill whenever they are attacking with a spray weapon in ranged combat (p. 191)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Buzzer, Freezer, Shard, Shredder, Torch"
+    swimming:
+      name: "Swimming"
+      category_names: "physical"
+      knowledge: false
+      linked_aptitude_name: SOM
+      aptitupde_defaulting: false
+      description: "Swimming is the art of moving and not drowning within fluids. It includes floating, surface swimming, snorkeling, diving, and related equipment use."
+      usage: "Use Swimming whenever you need to move and survive in water or another liquid environment. Swimming in a non-threatening en- vironment can be handled as a Simple Success Test. Swimming over a long distance could be handled as a Task Action. Diving off a cliff into a lake, prevent- ing yourself from being swept away in a raging river current, or making sure you’ve set a proper gas mix for a deep-sea dive, among other things, requires a Success Test."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Diving, Freestyle, Underwater Diving"
+    throwing_weapons:
+      name: "Throwing weapons"
+      category_names: "combat"
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "Throwing Weapons skill covers the use and maintenance of standard throwing weapons, like grenades (p. 340)."
+      usage: "Use Throwing Weapons skill whenever you are attacking with a throwing weapon in ranged combat (p. 191)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Grenades, Knives, Rocks"
+    unarmed_combat:
+      name: "Unarmed combat"
+      category_names: Combat
+      knowledge: false
+      linked_aptitude_name: COO
+      aptitupde_defaulting: false
+      description: "Unarmed Combat is your ability to attack and defend without using weapons."
+      usage: "Use Unarmed Combat whenever you want to attack someone with your fists, feet, elbows, knees, or other body parts in melee combat (p. 191)."
+      has_field: false
+      sample_fields: ""
+      specialisable: true
+      specialisations: "Implant Weaponry, Kick, Punch, Subdual"

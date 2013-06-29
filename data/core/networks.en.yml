@@ -1,0 +1,30 @@
+en:
+  networks:
+    cicle_a:
+      name: "@list"
+      description: "The Circle-A list for anarchists, Barsoomians, Extropians, scum, and Titanians, noted as @-rep."
+      tag: '@'
+    civic_net:
+      name: "CivicNet"
+      tag: 'C'
+      description: "used by the Jovian Republic, LunarLagrange Alliance, Morningstar Constellation, Planetary Consortium, and many hypercorps, referred to as c-rep."
+    eco_wave:
+      name: "EcoWave"
+      tag: 'E'
+      description: "used by nano-ecologists, preservationists, and reclaimers, referred to as e-rep."
+    fame:
+      name: "Fame"
+      tag: 'F'
+      description: "the seen-and-be-seen network used by socialites, artists, glitterati, and media, referred to as f-rep."
+    guanxi:
+      name: "Guanxi"
+      tag: "G"
+      description: "used by the triads and numerous criminal entities, referred to as g-rep."
+    the_eye:
+      name: "The Eye"
+      tag: "I"
+      description: "used by Firewall, noted as i-rep."
+    rna:
+      name: "RNA"
+      tag: "R"
+      description: "Research Network Affiliation, used by argonauts, technologists, scientists, and researchers, referred to as r-rep."
